@@ -1,0 +1,76 @@
+.menuPage{
+    padding:20px;
+    }
+    
+    .searchBar{
+    width:100%;
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    margin-top:10px;
+    }
+    
+    .categoryTabs{
+        display:flex;
+        gap:10px;
+        overflow-x:auto;
+        margin-top:10px;
+    }
+    
+    .categoryTabs::-webkit-scrollbar{
+    display:none;
+    }
+    
+    .tab{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        
+        width:70px;
+        height:70px;
+        
+        border-radius:12px;
+        background:white;
+        border:1px solid #ddd;
+        
+        cursor:pointer;
+        }
+        
+        .tab img{
+        width:24px;
+        margin-bottom:4px;
+        }
+        
+        .tab.active{
+        background:#333;
+        color:white;
+        }
+    
+    .menuGrid{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:18px;
+        margin-top:20px;
+    }
+    
+    .nextButton{
+
+        position:fixed;
+        
+        right:60px;
+        bottom:25px;
+        
+        background:#444;
+        
+        color:white;
+        
+        border:none;
+        
+        padding:12px 20px;
+        
+        border-radius:12px;
+        
+        font-size:14px;
+        
+    }

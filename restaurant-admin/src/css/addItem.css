@@ -1,0 +1,94 @@
+.addItemPage{
+    max-width:520px;
+    }
+    
+    .addItemPage h1{
+    margin-bottom:30px;
+    font-size:28px;
+    font-weight:600;
+    }
+    
+    .addItemPage label{
+    display:block;
+    margin-bottom:6px;
+    font-size:16px;
+    }
+    
+    .imageUpload{
+    position:relative;
+    width:120px;
+    height:120px;
+    border-radius:16px;
+    background:#F0F5F3;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:20px;
+    overflow:hidden;
+    cursor:pointer;
+    }
+    
+    .imageUpload input{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    cursor:pointer;
+    }
+    
+    .imageUpload img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    }
+    
+    .uploadPlaceholder{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:6px;
+    font-size:12px;
+    color:#777;
+    }
+    
+    .uploadPlaceholder img{
+    width:36px;
+    opacity:0.6;
+    }
+    
+    .addItemPage input,
+    .addItemPage select{
+    display:block;
+    width:100%;
+    padding:14px 16px;
+    margin-bottom:18px;
+    border-radius:12px;
+    border:none;
+    background:#EDE6F7;
+    font-size:15px;
+    outline:none;
+    box-sizing:border-box;
+    }
+    
+    .addItemPage input::placeholder{
+    color:#666;
+    }
+    
+    .addItemPage select{
+    cursor:pointer;
+    }
+    
+    .addItemPage button{
+    margin-top:20px;
+    padding:14px 30px;
+    background:#2f2f2f;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:15px;
+    cursor:pointer;
+    }
+    
+    .addItemPage button:hover{
+    background:black;
+    }

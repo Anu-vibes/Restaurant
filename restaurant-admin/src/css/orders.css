@@ -1,0 +1,191 @@
+.content{
+    margin-left:90px;
+    padding:30px;
+    }
+    
+    /* GRID */
+    
+    .ordersGrid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,280px);
+    gap:28px;
+    margin-top:20px;
+    }
+    
+    /* CARD */
+    
+    .orderCard{
+    padding:20px;
+    border-radius:28px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    box-shadow:0 6px 16px rgba(0,0,0,0.04);
+    }
+    
+    /* CARD COLORS */
+    
+    .orderCard.processing{
+    background:#FFE3BC;
+    }
+    
+    .orderCard.done{
+    background:#B9F8C9;
+    }
+    
+    .orderCard.takeaway{
+    background:#C2D4D9;
+    }
+    
+    /* HEADER */
+    
+    .orderHeaderBox{
+    background:#FFFFFF;
+    padding:16px;
+    border-radius:22px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    }
+    
+    /* LEFT HEADER */
+    
+    .headerLeft{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    }
+    
+    .orderNumberRow{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    }
+    
+    .forkIcon{
+    width:18px;
+    height:18px;
+    }
+    
+    .orderNumber{
+    font-size:18px;
+    font-weight:600;
+    color:#111111;
+    }
+    
+    .headerMeta{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+    font-size:13px;
+    color:#2C2C2E;
+    }
+    
+    .itemCount{
+    font-size:18px;
+    font-weight:600;
+    margin-top:6px;
+    }
+    
+    /* STATUS PILL */
+    
+    .statusPill{
+    padding:8px 12px;
+    border-radius:16px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:56px;
+    min-width:84px;
+    }
+    
+    .statusPill.processing{
+    background:#FFE3BC;
+    color:#D87300;
+    }
+    
+    .statusPill.done{
+    background:#9ED9B0;
+    color:#0E912F;
+    }
+    
+    .statusPill.takeaway{
+    background:#AFC0C6;
+    color:#3B413D;
+    }
+    
+    .statusTitle{
+    font-size:13px;
+    font-weight:600;
+    }
+    
+    .statusSub{
+    font-size:11px;
+    margin-top:2px;
+    }
+    
+    /* ITEMS */
+    
+    .orderItems{
+    background:#FFFFFF;
+    padding:14px;
+    border-radius:18px;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    font-size:14px;
+    }
+    
+    .itemRow{
+    padding:2px 0;
+    }
+    
+    /* FOOTER */
+    
+    .orderFooter{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:6px;
+    }
+    
+    /* BUTTON BASE */
+    
+    .processingBtn,
+    .doneBtn{
+    border:none;
+    padding:12px 22px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+    }
+    
+    /* BUTTON COLORS */
+    
+    .orderCard.done .doneBtn{
+    background:#31FF65;
+    color:#111111;
+    }
+    
+    .orderCard.processing .processingBtn{
+    background:#D87300;
+    color:#FFFFFF;
+    }
+    
+    .orderCard.takeaway .doneBtn{
+    background:#9BAEB3;
+    color:#111111;
+    }
+    
+    /* ICON */
+    
+    .btnIcon{
+    width:16px;
+    height:16px;
+    }

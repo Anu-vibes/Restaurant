@@ -1,0 +1,191 @@
+
+    .cartPage{
+        max-width:430px;
+        margin:auto;
+        padding:20px;
+        background:#f6f6f6;
+        min-height:100vh;
+        }
+        
+        .cartTitle{
+        font-size:22px;
+        margin-bottom:20px;
+        }
+        
+        .cartItem{
+        display:flex;
+        gap:12px;
+        margin-bottom:20px;
+        }
+        
+        .cartItem img{
+        width:70px;
+        height:70px;
+        border-radius:10px;
+        object-fit:cover;
+        }
+        
+        .cartInfo h4{
+        margin:0;
+        font-size:16px;
+        }
+        
+        .price{
+        color:#555;
+        margin:4px 0;
+        }
+        
+        .qtyControls{
+        display:flex;
+        gap:8px;
+        align-items:center;
+        }
+        
+        .qtyControls button{
+        width:30px;
+        height:30px;
+        border:none;
+        background:black;
+        color:white;
+        border-radius:6px;
+        }
+        
+        .instructionsBox{
+        border:1px dashed #bbb;
+        padding:12px;
+        border-radius:10px;
+        margin-top:10px;
+        margin-bottom:20px;
+        }
+        
+        .orderTypeToggle{
+        display:flex;
+        background:#ddd;
+        border-radius:25px;
+        padding:4px;
+        margin-bottom:20px;
+        }
+        
+        .orderTypeToggle button{
+        flex:1;
+        padding:10px;
+        border:none;
+        border-radius:20px;
+        background:transparent;
+        color:black;
+        }
+        
+        .orderTypeToggle .active{
+        background:white;
+        }
+        
+        .billSection{
+        background-color: #FFF48F24;
+        padding:20px;
+        border-radius:10px;
+        }
+        
+        .billRow{
+        display:flex;
+        justify-content:space-between;
+        margin-bottom:10px;
+        }
+        
+        .billRow.grand{
+        font-weight:bold;
+        font-size:18px;
+        }
+        
+        .deliveryInfo{
+        margin-top:15px;
+        }
+        
+        .deliveryRow{
+        display:flex;
+        align-items:center;
+        gap:8px;
+        margin-top:6px;
+        }
+        
+        .deliveryRow img{
+        width:18px;
+        }
+        
+        .popupOverlay{
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background:rgba(0,0,0,0.3);
+        display:flex;
+        justify-content:center;
+        align-items:flex-end;
+        z-index:20;
+        }
+        
+        .popupBox{
+        background:white;
+        width:100%;
+        max-width:430px;
+        padding:20px;
+        border-radius:20px 20px 0 0;
+        }
+        
+        .popupBox textarea{
+        width:100%;
+        height:80px;
+        border:1px solid #ddd;
+        border-radius:8px;
+        padding:8px;
+        margin-top:10px;
+        }
+        
+        .popupBtns{
+        display:flex;
+        gap:10px;
+        margin-top:15px;
+        }
+        
+        .cancelBtn{
+        flex:1;
+        background:#ddd;
+        border:none;
+        padding:10px;
+        border-radius:8px;
+        }
+        
+        .nextBtn{
+        flex:1;
+        background:#444;
+        color:white;
+        border:none;
+        padding:10px;
+        border-radius:8px;
+        }
+
+        .detailsSection{
+
+            margin-top:20px;
+            
+            padding-top:12px;
+            
+            border-top:1px solid #ddd;
+            
+            }
+            
+            .detailsSection h3{
+            
+            margin-bottom:6px;
+            
+            font-size:16px;
+            
+            }
+            
+            .customerName{
+            
+            color:#444;
+            
+            font-size:14px;
+            
+            }

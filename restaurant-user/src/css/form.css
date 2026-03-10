@@ -1,0 +1,23 @@
+.formContainer{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    margin:auto;
+    margin-top:150px;
+    gap:10px;
+    }
+    
+    input{
+    padding:10px;
+    border-radius:8px;
+    border:1px solid #ddd;
+    }
+    
+    button{
+    padding:12px;
+    border:none;
+    background:black;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    }
